@@ -14,8 +14,8 @@ export const useForm = (initialState = {}) => {
         })
     };
 
-    // Creamos una funcion que permita hacer submit a algun boton que configuremos, ... 
-    // ... ademas nos muestra la informacion guardada impresa en consola
+    // Creamos una funcion que permita hacer el envio de la informacion con algun boton que configuremos, ... 
+    // ... ademas nos muestra la informacion guardada impresa en consola =D
     const handleSubmit = (e) => {
         e.preventDefault();
         
